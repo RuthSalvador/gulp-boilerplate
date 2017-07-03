@@ -66,6 +66,7 @@ gulp.task("html-watch", ["html"], function (done) {
 
 //agregando tarea extra que realizará el watch del directorio src y ejecutará todas las tareas
 //de manera q compila toodo y actualiza
+/*
 gulp.task("serve", function () {
   browserSync.init({
     server: {
@@ -77,3 +78,4 @@ gulp.task("serve", function () {
   gulp.watch(sources.sass, ["sass-watch"]);
   gulp.watch(sources.js, ["js-watch"]);
 });
+*/
